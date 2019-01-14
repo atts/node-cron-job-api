@@ -1,0 +1,20 @@
+{
+  "name": "api-cronjob",
+  "version": "1.0.0",
+  "description": "this api will fetch data from remote api/url at regular intervals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "json2csv": "^4.3.2",
+    "node-cron": "^2.0.3"
+  }
+}
